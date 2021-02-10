@@ -1,0 +1,148 @@
+@media screen and (min-width: 650px) {
+  body,
+  html .App {
+    position: absolute;
+    border: 5px;
+    height: 100%;
+    width: 100%;
+
+    background: #2f404a;
+  }
+  .text {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 135px;
+    margin-left: 140px;
+    display: flex;
+    grid-area: main;
+    color: #ffffff;
+  }
+  .searchButton {
+    width: 80px;
+    height: 75px;
+    float: right;
+
+    background: rgba(255, 255, 255, 0.65);
+    border-radius: 0px 100px 100px 0px;
+    border: 5px;
+
+    margin-top: 50px;
+    margin-right: 50px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 178%;
+    /* or 178% */
+
+    color: #666666;
+  }
+  .toolBar {
+    display: flex;
+    flex-wrap: wrap;
+    height: 84.26856088618028px;
+    width: 434.4634020474949px;
+
+    align-content: center;
+
+    background: #28363e;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transform: rotate(89.87deg);
+  }
+  .toolButton {
+    height: 50px;
+    width: 20%;
+    border: 3px;
+    border-radius: 10px;
+    background-color: transparent;
+    transform: rotate(269.87deg);
+    color: white;
+    font-size: 28px;
+  }
+  .toolPosition {
+    position: absolute;
+    display: flex;
+    margin: auto;
+    bottom: 430px;
+    left: -240px;
+    float: left;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  body,
+  html .App {
+    position: absolute;
+    border: 5px;
+    height: 100%;
+    width: 100%;
+
+    background: #2f404a;
+  }
+  .text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    grid-area: main;
+    margin-top: 160px;
+    margin-left: 30px;
+    color: #ffffff;
+  }
+  .hideScreenStyle {
+    display: none;
+  }
+  .hideScreenStyleText {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .searchButton {
+    width: 80px;
+    height: 75px;
+    float: right;
+
+    background: rgba(255, 255, 255, 0);
+    border-radius: 0px 100px 100px 0px;
+    border: 5px;
+
+    margin-top: 50px;
+    margin-right: 50px;
+
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 178%;
+    /* or 178% */
+
+    color: rgba(255, 255, 255);
+  }
+  .toolBar {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    height: 5%;
+    width: 100%;
+    left: -5%;
+    align-content: center;
+
+    background: #28363e;
+    box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  .toolButton {
+    height: 50px;
+    width: 20%;
+    border: 3px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 28px;
+  }
+  .toolPosition {
+    float: left;
+  }
+}
